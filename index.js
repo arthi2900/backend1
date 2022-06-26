@@ -2,9 +2,9 @@ console.log("hi connect");
 import  express from 'express';
 import  cors from 'cors';
 import {MongoClient} from "mongodb";
-const app=express();
 const PORT=4000 ||3001 ;
 const MONGO_URL='https://62642a15a6adc673188e65dd.mockapi.io/User';
+export const app=express(); 
 app.use(express.json());
 app.use(cors());
 
